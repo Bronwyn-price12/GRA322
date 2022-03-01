@@ -1,0 +1,118 @@
+/* Hero */
+html {
+    color: #364E56
+}
+
+body {
+    font-family:'Reem Kufi', sans-serif;
+}
+
+.hero {
+    background-image: url('../img/headerimg.jpg');
+    background-position: center center;
+    background-size: cover;
+    font-size: 150%;
+    font-weight: lighter;
+    height: 95vh;
+    padding: 2rem;
+}
+
+.logo{
+    float: left;
+    font-size: 150%;
+    font-weight: 800;
+}
+
+li {
+    font-size: 90%;
+    font-weight: lighter;
+    display: inline;
+    float:right;
+    padding: 2rem;
+}
+
+
+/* Menu */
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.drinkslink {
+    background-image: url('../img/drink.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #FFEFDB;
+    display: block;
+    font-size: 400%;
+    font-weight: 800;
+    height: 90vh;
+    padding-top: 23rem;
+    text-align: center;
+}
+
+.foodlink {
+    background-image: url('../img/food.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #FFEFDB;
+    display: block;
+    font-size: 400%;
+    font-weight: 800;
+    height: 90vh;
+    padding-top: 23rem;
+    text-align: center;
+}
+
+/* Headers */
+h1 {
+    grid-column: full;
+    padding: 0rem;
+}
+
+h2 {
+    color: #FFEFDB;   
+}
+
+/* Location */
+h3 {
+    color: #FFEFDB;
+    background-color: #364E56;
+    font-size: 300%;
+    font-weight: 700;
+    padding-top: 5rem;
+    text-indent: 7.75rem;
+    height: 20vh;
+}
+
+/* Direction */
+
+.gps {
+    background-color: #364E56;
+}
+
+.locations {
+    font
+}
+
+p {
+    color: #FFEFDB;
+    font-size: 150%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-indent: 7.75rem;
+    text-decoration: underline;    
+    padding: 2rem;
+    word-spacing: 4px;
+}
+
+.direction {
+    padding: 7.75rem;
+}
+
+
+h4{
+    background-color:#FFEFDB;
+    padding: 2rem 2rem;
+    word-spacing: 3px;
+}
