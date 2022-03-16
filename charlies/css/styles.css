@@ -18,12 +18,14 @@ body {
 }
 
 .logo{
+    list-style: none;
     float: left;
     font-size: 150%;
     font-weight: 800;
+    padding-top: 1rem;
 }
 
-li {
+.about {
     font-size: 90%;
     font-weight: lighter;
     display: inline;
@@ -31,38 +33,117 @@ li {
     padding: 2rem;
 }
 
+.locations{
+    font-size: 90%;
+    font-weight: lighter;
+    display: inline;
+    float:right;
+    padding: 2rem;
+}
 
-/* Menu */
 .menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    font-size: 90%;
+    font-weight: lighter;
+    display: inline;
+    float:right;
+    padding: 2rem;
 }
 
-.drinkslink {
-    background-image: url('../img/drink.jpg');
-    background-position: center center;
-    background-size: cover;
+/* About Section */
+.intro {
     color: #FFEFDB;
-    display: block;
-    font-size: 400%;
-    font-weight: 800;
-    height: 90vh;
-    padding-top: 23rem;
-    text-align: center;
+    background-color: #364E56;
+    font-size: 300%;
+    font-weight: 700;
+    padding-top: 7rem;
+    text-indent: 4.5rem;
 }
 
-.foodlink {
-    background-image: url('../img/food.jpg');
-    background-position: center center;
-    background-size: cover;
+.quote {
+    text-align: left;
     color: #FFEFDB;
-    display: block;
-    font-size: 400%;
-    font-weight: 800;
-    height: 90vh;
-    padding-top: 23rem;
-    text-align: center;
+    background-color: #364E56;
+    font-size: 200%;
+    font-weight: lighter;
+    padding-left: 10.15rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+    background-color: #364E56;
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    padding-right: 4rem;
+  }
+
+
+/* Menu */ 
+.menutitle{
+    color: #364E56;
+    background-color: #FFEFDB;
+    font-size: 300%;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    text-indent: 4.5rem;
+    height: 20vh;
+}
+
+.drinks{
+    color: #364E56;
+    background-color: #FFEFDB;
+    font-size: 200%;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-indent: 5rem;
+}
+
+table {
+    width: 100%;
+}
+
+.drinks-column-1 {
+    background-color: #FFEFDB;
+    color: #364E56;
+}
+
+.drinks-column-2 {
+    background-color: #FFEFDB;
+    color: #364E56;
+}
+
+.food {
+    color: #364E56;
+    background-color: #FFEFDB;
+    font-size: 200%;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-indent: 5rem;
+}
+
+.foodsection {
+    background-color: #FFEFDB;
+    color: #364E56;
+    font-size: 150%;
+    padding-left: 10rem;
+    padding-bottom: 7rem;
+
+}
+
+td {
+    max-width: 20px;
+}
+
 
 /* Headers */
 h1 {
@@ -74,45 +155,48 @@ h2 {
     color: #FFEFDB;   
 }
 
-/* Location */
-h3 {
-    color: #FFEFDB;
-    background-color: #364E56;
-    font-size: 300%;
-    font-weight: 700;
-    padding-top: 5rem;
-    text-indent: 7.75rem;
-    height: 20vh;
-}
 
-/* Direction */
-
+/* Location Info */
 .gps {
     background-color: #364E56;
 }
 
-.locations {
-    font
+.locations2 {
+    color: #FFEFDB;
+    background-color: #364E56;
+    font-size: 250%;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+    text-indent: 4.5rem;
+    height: 20vh;
 }
 
-p {
+.names {
+    font-size: 200%;
+    text-indent: 9.78rem;
+    text-decoration: underline;
+}
+
+.info {
     color: #FFEFDB;
+    list-style: none;
     font-size: 150%;
     font-weight: lighter;
-    letter-spacing: 1px;
-    text-indent: 7.75rem;
-    text-decoration: underline;    
-    padding: 2rem;
-    word-spacing: 4px;
-}
-
-.direction {
-    padding: 7.75rem;
+    padding-bottom: 5rem;
+    text-indent: 9.78rem;
 }
 
 
+/* Copyright */
 h4{
     background-color:#FFEFDB;
+    font-weight: lighter;
     padding: 2rem 2rem;
+    text-indent: 7.758rem;
     word-spacing: 3px;
+}
+
+.fa-instagram {
+    color: #ff0000;
 }
